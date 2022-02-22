@@ -8,7 +8,7 @@ local function initToadTraits()
     flexible:addXPBoost(Perks.Nimble, 1);
     local quiet = TraitFactory.addTrait("quiet", getText("UI_trait_quiet"), 2, getText("UI_trait_quietdesc"), false, false);
     quiet:addXPBoost(Perks.Sneak, 1);
-    local tinkerer = TraitFactory.addTrait("tinkerer", getText("UI_trait_tinkerer"), 7, getText("UI_trait_tinkererdesc"), false, false);
+    local tinkerer = TraitFactory.addTrait("tinkerer", getText("UI_trait_tinkerer"), 6, getText("UI_trait_tinkererdesc"), false, false);
     tinkerer:addXPBoost(Perks.Electricity, 1);
     tinkerer:addXPBoost(Perks.Mechanics, 1);
     tinkerer:addXPBoost(Perks.Tailoring, 1);
@@ -21,7 +21,7 @@ local function initToadTraits()
     wildsman:getFreeRecipes():add("Make Snare Trap");
     wildsman:getFreeRecipes():add("Make Fishing Rod");
     wildsman:getFreeRecipes():add("Fix Fishing Rod");
-    local packmule = TraitFactory.addTrait("packmule", getText("UI_trait_packmule"), 7, getText("UI_trait_packmuledesc"), false, false);
+    local packmule = TraitFactory.addTrait("packmule", getText("UI_trait_packmule"), 8, getText("UI_trait_packmuledesc"), false, false);
     local bladetwirl = TraitFactory.addTrait("bladetwirl", getText("UI_trait_bladetwirl"), 5, getText("UI_trait_bladetwirldesc"), false, false);
     bladetwirl:addXPBoost(Perks.LongBlade, 1);
     bladetwirl:addXPBoost(Perks.SmallBlade, 1);
@@ -30,7 +30,7 @@ local function initToadTraits()
     blunttwirl:addXPBoost(Perks.Blunt, 1);
     local spearperk = TraitFactory.addTrait("prospear", getText("UI_trait_prospear"), 7, getText("UI_trait_prospeardesc"), false, false);
     spearperk:addXPBoost(Perks.Spear, 2);
-    local quickworker = TraitFactory.addTrait("quickworker", getText("UI_trait_quickworker"), 9, getText("UI_trait_quickworkerdesc"), false, false);
+    local quickworker = TraitFactory.addTrait("quickworker", getText("UI_trait_quickworker"), 8, getText("UI_trait_quickworkerdesc"), false, false);
     --===========--
     --Bad Traits--
     --===========--
